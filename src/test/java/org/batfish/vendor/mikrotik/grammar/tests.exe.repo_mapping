@@ -1,0 +1,7 @@
+,batfish,_main
+,maven,rules_jvm_external++maven+maven
+bazel_tools,remote_java_tools,rules_java++toolchains+remote_java_tools
+rules_java+,remote_java_tools,rules_java++toolchains+remote_java_tools
+rules_java++toolchains+*,remote_java_tools,rules_java++toolchains+remote_java_tools
+rules_java++toolchains+*,remotejdk25_win,rules_java++toolchains+remotejdk25_win
+rules_jvm_external++maven+*,maven,rules_jvm_external++maven+maven
